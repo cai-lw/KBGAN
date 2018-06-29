@@ -18,4 +18,4 @@ Our lab: http://nlp.cs.ucsb.edu/index.html
 
 Feel free to explore and modify parameters in config files. Default parameters are those used in experiments reported in the paper.
 
-Decrease `adv.test_batch_size` if you experience GPU memory exhaustion. (this would make the program runs slower, but would not affect the test result)
+Decrease `test_batch_size` in config files if you experience GPU memory exhaustion. (this would make the program runs slower, but would not affect the test result)
