@@ -11,6 +11,8 @@ Our lab: http://nlp.cs.ucsb.edu/index.html
 * PyYAML
 * nvidia-smi
 
+**PyTorch 0.2.0 is REQUIRED**. Because PyTorch is not backward compatible, **newer versions will NOT work**. We understand that 0.2.0 is outdated, but we currently have no schedule of adding support to newer PyTorch versions.
+
 ## Usage
 1. Unzip `data.zip`.
 2. Pretrain: `python3 pretrain.py --config=config_<dataset_name>.yaml --pretrain_config=<model_name>` (this will generate a pretrained model file)
